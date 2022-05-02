@@ -9,7 +9,7 @@ Here are a few things to note before taking a deep dive into it.
 
 1. This is not mobile responsive at all. You will probably cringe and cry when you view this on a mobile or a different screen iteration at your dekstop device. 
 
-2. My goal for this was to be able to design and code a project that, and continously improve it as I go progess through The Odin Project curicculum, (This is the first project on the Foundations learning path) so responsiveness wasn't much of a concern to me at all.
+2. My goal for this was to be able to design and code a project, and continously improve it as I progess through The Odin Project curicculum, (This is the first project on the Foundations learning path) so responsiveness wasn't much of a concern to me at all.
 
 3. All photos are grabbed from Pexels and Unsplash. I will update this and give proper attribution.
 
