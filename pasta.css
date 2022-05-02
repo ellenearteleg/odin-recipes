@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    max-width: 100vw;
+    max-height: fit-content;
+    font-family: "Fraunces", serif;
+
+}
+
+h1 {
+    color: #01937C;
+    font-size: 3em;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: #FAF1E6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+.logo a{
+    font-family: "Fraunces",
+    serif;
+}
+
+.nav ul,
+a,
+li {
+    text-decoration: none;
+    color: #019267;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 7px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.nav a:hover {
+    color: #B6C867;
+}
+
+.container {
+    height: 100vh;
+    background-color: #f5ffc653;
+}
+
+.container h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    margin: 50px;
+}
+
+h3 {
+    color: #01937C;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 50%;
+}
+
+
+.image img {
+    height: 90%;
+    width: 90%; 
+    border: 15px solid #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.138);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.138);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.138);
+}
+
+.text {
+    width: 50%;
+    padding: 0 50px 50px 0;
+    line-height: 40px;
+}

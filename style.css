@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    max-width: 100vw;
+    max-height: fit-content;
+    font-family: "Fraunces", serif;
+    
+}
+
+h1 {
+    color: #01937C;
+    font-size: 3em;
+}
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: #FAF1E6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 60px
+}
+
+.logo a {
+    font-family: "Fraunces",
+        serif;
+}
+
+.nav ul, a, li{
+    text-decoration: none;
+    color: #019267;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 7px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.nav a:hover {
+    color: #B6C867;
+}
+
+.hero  {
+    height: 80vh;
+    display: flex;
+    
+}
+
+.hero-text {
+    width: 50%;
+    padding: 80px;
+  
+    
+}
+
+.hero-text p {
+    margin: 30px 0 30px 0;
+
+}
+
+.hero-img {
+    background-image: url(./images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+
+.hero-buttons button{
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size:1.2em;
+    font-weight: 700;
+    
+}
+
+.primary-cta {
+    background-color:#01937C;
+    color: #ffffff;
+}
+
+.primary-cta:hover {
+    background-color: #ffffff;
+    color: #01937C;
+    border: 1px solid #000000ae;
+}
+
+.secondary-cta {
+    background-color: #FFC074;
+    color: #ffffff;
+    margin-left: 30px;
+    
+}
+
+.secondary-cta:hover {
+    background-color:#ffffff;
+    color: #FFC074;
+    border: 1px solid #000000ae;
+}
+
+.about {
+    background-color: #ffe7cb;
+    display: flex;
+    height: 80vh;
+    padding: 70px;
+}
+
+.about-img {
+    width: 50%;
+    height: auto;
+    background-image: url(./images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 15px solid white;
+}
+
+.about-text {
+    width:50%;
+    text-align: center;
+    padding: 70px;
+}
+
+h2 {
+
+    color: #01937C;
+}
+
+.about-text p, .about-button{
+    margin-top: 40px;
+}
+
+.about-button {
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size:1.2em;
+    font-weight: 700;
+}
+
+.preview {
+    height: 80vh;
+    background-color: #f5ffc653;
+    padding: 70px;
+    text-align: center;
+
+}
+
+.preview h2{
+    margin-bottom: 50px;
+}
+
+.card-rows {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+    height: 300px;
+    width: 300px;
+    border: 15px solid #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-1{
+    background-image: url(./images/card-1.jpg);
+}
+
+.card-2 {
+    background-image: url(./images/card-2.jpg);
+}
+
+.card-3 {
+    background-image: url(./images/card-3.jpg);
+}
+
+.card-4 {
+    background-image: url(./images/card-4.jpg);
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+
+
